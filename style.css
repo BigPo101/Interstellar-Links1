@@ -18,7 +18,7 @@ body::before {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: Dust Particles pack (online-video-cutter.com).mp4, #000;
+  background: url("https://i.makeagif.com/media/7-05-2017/EFwjlJ.gif"), #000;
   background-position: center;
   background-size: cover;
 }
