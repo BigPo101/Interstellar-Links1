@@ -5,6 +5,10 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
+i{
+  position: absolute;
+  top: 13px;
+  right: 0px;
 body {
   display: flex;
   align-items: center;
