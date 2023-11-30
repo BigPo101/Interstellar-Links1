@@ -121,3 +121,6 @@ button:hover {
   margin-top: 30px;
   color: #fff;
 }
+#result{
+  color:red;
+}
