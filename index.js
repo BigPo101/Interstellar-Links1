@@ -21,5 +21,20 @@ console.log('user added');
 
 function login(e){
 event.preventDefault();
-  console.log(123);
+
+  var username = document.getElementById('username').value;
+  var pass = document.getElementById('password').value;
+  var result = document.getElementById('result');
+
+  var user = localStorage.getItem(username);
+  var data = JSON.parse(user);
+  console.log(data);
+
+  if(user = null){
+    result.innerHTML = 'Wrong Username';
+} else if(username == data.username && pass == data.password){}
+  result.innerHTML = 'Login in Succesfull';
+}else{
+  result.innerHTML = 'Wrong Password';
+      
 }
