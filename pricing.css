@@ -14,6 +14,7 @@ body {
 }
 .home-pricing {
   width: 100%;
+  height: 1073px;
   display: flex;
   background-size: cover;
   justify-content: center;
@@ -30,10 +31,13 @@ body {
   justify-content: center;
 }
 .home-pricing-card {
+  width: 326px;
   display: flex;
   opacity: 0.85;
   padding: var(--dl-space-space-threeunits);
+  max-width: 450px;
   box-shadow: 10px 10px 30px 10px #000000;
+  min-height: 450px;
   transition: 0.3s;
   align-items: flex-start;
   padding-top: var(--dl-space-space-twounits);
@@ -121,10 +125,14 @@ body {
   background-color: var(--dl-color-gray-black);
 }
 .home-pricing-card1 {
+  width: 629px;
+  height: 601px;
   display: flex;
   opacity: 0.85;
   padding: var(--dl-space-space-twounits);
+  max-width: 450px;
   box-shadow: 10px 10px 30px 10px #000000;
+  min-height: 450px;
   transition: 0.3s;
   align-items: flex-start;
   margin-right: var(--dl-space-space-twounits);
@@ -189,10 +197,14 @@ body {
   background-color: var(--dl-color-gray-black);
 }
 .home-pricing-card2 {
+  width: 316px;
+  height: 503px;
   display: flex;
   opacity: 0.85;
   padding: var(--dl-space-space-threeunits);
+  max-width: 450px;
   box-shadow: 5px 5px 10px 10px #000000;
+  min-height: 450px;
   transition: 0.3s;
   align-items: flex-start;
   padding-top: var(--dl-space-space-twounits);
@@ -265,7 +277,7 @@ body {
     align-items: center;
   }
 }
-@media {
+@media(max-width: 767px)  {
   .home-container01 {
     flex-flow: column;
     padding-left: var(--dl-space-space-twounits);
@@ -273,24 +285,27 @@ body {
   }
   .home-pricing-card {
     width: 100%;
+    max-width: 450px;
     align-items: center;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
   }
   .home-pricing-card1 {
     width: 100%;
+    max-width: 450px;
     align-items: center;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
   }
   .home-pricing-card2 {
     width: 100%;
+    max-width: 450px;
     align-items: center;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
   }
 }
-@media {
+@media(max-width: 479px) {
   .home-container01 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
